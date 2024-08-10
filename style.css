@@ -1,0 +1,343 @@
+/* Navbar Styles */
+.navbar {
+    background-color: rgb(65, 4, 4);
+    padding: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin: 0 10px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+a.active, a:hover {
+    background: #1b9bff;
+    transition: .5s;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Logo Styling */
+.logo {
+    display: block;
+}
+
+/* Hamburger Icon */
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+/* Hide the checkbox */
+#check {
+    display: none;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .navdiv {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navdiv ul {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background-color: rgb(65, 4, 4);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in-out;
+    }
+
+    #check:checked ~ .navdiv ul {
+        transform: translateX(0%);
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    li {
+        margin: 20px 0;
+        font-size: 24px;
+    }
+}
+
+        .One {float: right;
+            margin-top: 20px;
+            margin-left: 0px;
+            margin-right: 0px;
+
+        }
+        h1 {margin-top: 150px; margin-left: 100px;
+             font-family:serif;
+             font-size: 40px
+             
+        }
+        p.twentysix{line-height: 2.1; margin-left: 50px;
+        text-align: justify;
+        text-indent: 23px;
+        font-family:Georgia;
+    
+    }
+        div.thirtythree {margin-top: 200px;}
+
+    div.thirtythree{margin-left: 50%;
+    height: 100px;
+    text-align: justify;
+        text-indent: 23px;
+        line-height: 2.0
+      
+    }
+        div.fortytwo{margin-right: 65%;
+        height: 100px; 
+        text-align: justify;
+        text-indent: 23px;
+        line-height: 2.0;
+        font-family: ans-serif;
+        font-size: 18px;
+        }
+      h2.fifty{margin-top: 150px; margin-left: 100px;
+        margin-right: 100px;
+        font-family:serifans-serif;
+        text-align: center;
+        font-size: 40px;
+        Color: red;
+        font-size: 18px;
+      }
+      p.twenty{line-height: 2.2; margin-left: 50px;
+        margin-right: 50px;
+        text-align: justify;
+        text-indent: 23px;
+        color:rgb(242, 242, 245); 
+        font-family: sans-serif;
+        font-size: 18px;
+    
+      }
+           div.seventy{ background-image: url(https://img.freepik.com/free-vector/neon-grid-background_53876-91657.jpg?t=st=1722317218~exp=1722320818~hmac=825bda3f7a4595e2560c7637b516a2a2707d461228f2a5dac1eb7b6e3b759b5b&w=740);
+        
+           }
+          
+           p.Oneforty{margin-top: 50px;
+            text-align: justify;
+            text-indent: 23px;
+            color:rgb(218, 43, 43); 
+            font-family: sans-serif;
+            font-size: 20px;
+            line-height: 2.0;
+            margin-top: 400px;
+            margin-left: 25px;
+            margin-right: 25px;
+          }
+
+          .Twosixty{ border: 1px solid #ddd;
+            border-radius:  20px;
+            padding: 5px;
+            width: 550px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            width: 50%;
+            font-size: 18px;
+          }
+
+          .Twotwo{margin-top: 150px;
+          }
+          .seventytwo{text-align:center;
+            margin-top: 150px;
+          }
+          .Threethree{ border: 1px solid #ddd;
+            border-radius:  20px;
+            padding: 5px;
+            width: 250px;
+            height: 250px;
+            display: block;
+            margin-top: 50px
+            font-size: 18px;
+            float: right;}
+       
+            .King {margin-top: 50px;
+              margin-bottom: 150px;
+            font-size: 18px;
+             font-family: sans-serif;
+             line-height: 2.0
+             
+              ;}
+            
+        
+           /* This is CSS for my About Xander.html */
+
+          
+        .seventy {text-align: center;
+           margin-top: 10px;
+           margin-bottom: 200px;
+          
+        }
+        .ten { font-size: 50px;
+        color: white;}
+        .eighty {text-align: center;
+            margin-top: 80px;}
+        .ninety {text-align: center;
+            line-height: 2.0;
+           margin-right: 50px;
+           margin-left: 50px;
+           margin-bottom: 50px;
+        }
+
+        /* This is for Chess HTML */
+       
+          .Twoten{
+            border: 1px solid #ddd;
+           border-radius: 4px;
+           padding: 5px;
+           width: 550px;
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+           margin-top: 100px;
+           width: 50%;
+          }
+          button {
+            width: 100px;
+            height: 50px;
+            border-radius: 4px;
+            margin-top: 70px; ;
+           
+          }
+          .Twothree {
+            text-align: center;
+            font-size: 50px;
+            font-family: 'Trebuchet MS';
+            font-style: italic;
+          }
+          .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          /* Css for Html */
+          .Xander {text-align: center;}
+          
+          /* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      height: auto;
+  }
+
+  ul {
+      float: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  li {
+      margin: 10px 0;
+  }
+
+  h1 {
+      margin-top: 50px;
+      margin-left: 0;
+      text-align: center;
+      font-size: 30px;
+  }
+
+  p.twentysix {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+  div.thirtythree, div.fortytwo {
+      margin: 50px 0;
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+  .Twosixty {
+      width: 80%;
+  }
+
+  .Threethree {
+      width: 80%;
+      height: auto;
+      margin: 20px auto;
+      float: none;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+      font-size: 24px;
+  }
+
+  li {
+      font-size: 16px;
+  }
+
+  .Oneforty {
+      margin: 50px 10px;
+      font-size: 16px;
+  }
+
+  .Twosixty {
+      width: 100%;
+  }
+
+  .Threethree {
+      width: 100%;
+  }
+
+  p.twentysix {
+      margin-left: 10px;
+      margin-right: 10px;
+      font-size: 16px;
+  }
+
+  div.thirtythree, div.fortytwo {
+      font-size: 16px;
+      margin: 20px 0;
+  }
+
+  .center button {
+      width: 80%;
+  }
+}
+    
